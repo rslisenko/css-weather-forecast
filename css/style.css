@@ -1,0 +1,125 @@
+/*RESETS*/
+*{
+	margin: 0;
+	padding: 0;
+	transition: all .1s ease-in;
+	box-sizing: border-box;
+}
+
+/*COMMON CLASSES*/
+html {
+	height: 100%;
+}
+html,
+body {
+	min-height: 100%;
+}
+body {
+	font: 16px/1.3 "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin: 0;
+}
+.w25 {
+	width: 25%;
+}
+.w50 {
+	width: 50%;
+}
+.w100 {
+	width: 100%;
+}
+.ba-container {
+	max-width: 100%;
+	border: 15px solid #2B81AC;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	background-color: #39C;
+}
+.ba-header,
+.ba-main,
+.ba-footer {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*HEADER*/
+.ba-header {
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+/*MAIN*/
+.ba-main ul {
+	font-size: 0;
+	list-style-type: none;
+	background-color: #fff;
+	border: 2px solid #fff;
+}
+.ba-main ul li{
+	display: inline-block;
+	font-size: 16px;
+	border: 2px solid #fff;
+	text-align: center;
+	padding: 20px;
+	color: #fff;
+}
+.ba-main:hover ul li{
+	opacity: 0.6;
+}
+.ba-main ul li:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+.ba-main li p {
+	margin-top: 10px;
+}
+.temperature:before {
+	content:"\2103";
+}
+.ba-main ul li i {
+	font-size: 22px;
+	padding-left: 5px;
+}
+
+/*FOOTER*/
+.ba-footer p{
+	font-size: 14px;
+	color: #FFF;
+	padding: 20px 0 50px;
+}
+
+/*COLORS*/
+.lisbon-bg-color {
+	background-color: #3399CC;
+}
+.paris-bg-color {
+	background-color: #33CCCC;
+}
+.belgrad-bg-color {
+	background-color: #996699;
+}
+.moscow-bg-color {
+	background-color: #C24747;
+}
+.tel-aviv-bg-color {
+	background-color: #E2674A;
+}
+.cair-bg-color {
+	background-color: #FFCC66;
+}
+.new-york-bg-color {
+	background-color: #99CC99;
+}
+.new-delhi-bg-color {
+	background-color: #669999;
+}
+.san-francisco-bg-color {
+	background-color: #CC6699;
+}
+.tokio-bg-color {
+	background-color: #339966;
+}
+.sydney-bg-color {
+	background-color: #666699;
+}
